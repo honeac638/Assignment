@@ -1,4 +1,4 @@
-
+/* Set global background color and main text color */
 body {
     background-color: #1a1a24;
     color: #cccccc;
@@ -8,12 +8,12 @@ body {
     margin: auto;
     text-align: center;
 }
-
+/* Global font family for all elements */
 * {
     font-family: sans-serif;
 }
 
-/* Headings and Titles */
+/* Headings and main titles */
 h1 {
     color: #ffffff;
     font-size: 32px;
@@ -23,14 +23,14 @@ h2 {
     color: #ffffff;
     font-size: 24px;
 }
-
+/* Header banner styling */
 #site-header {
     background-color: #2d2d3a;
     color: #ffffff;
     text-align: center;
     padding: 20px;
 }
-
+/* Central layout for page body content */
 #main-content {
     max-width: 1200px;
     margin: auto;
@@ -52,7 +52,7 @@ h2 {
     text-align: left;
     max-width: 1100px;
 }
-
+/*styling for the decklist title*/
 .decklist-title {
     text-align: left;
     font-size: 25.6px;
@@ -73,7 +73,7 @@ h2 {
     min-width: 220px;
     max-width: 260px;
 }
-
+/* Category header styling */
 .deck-column h3 {
     color: #c2b2fc;
     font-size: 14.4px;
@@ -90,14 +90,15 @@ h2 {
     padding: 0;
     margin: 0;
 }
-
+/* Card name list item formatting */
 .deck-column li {
     font-size: 14.4px;
     color: #e2e8f0;
     padding: 3px;
     text-align: left;
 }
-/* Synergies Section */
+
+/* Synergies section and page 2*/
 .synergies-section {
     text-align: left;
     max-width: 800px;
@@ -107,7 +108,7 @@ h2 {
 .synergies-section ul {
     margin-bottom: 25px;
 }
-
+/* Centered ordered list styling */
 ol.centered-list {
     display: inline-block;
     text-align: left;
@@ -115,12 +116,22 @@ ol.centered-list {
     line-height: 1.8;
 }
 
-/* Links */
+/* Links color and styling */
 a {
     color: #3b82f6;
 }
 
+/* Page footer styling with a top border */
 #site-footer {
     margin-top: auto;
     border-top: 1px solid #333344;
+    line-height: 3;
+    text-align: center;
+}
+
+.section-title {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }

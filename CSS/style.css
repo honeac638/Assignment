@@ -1,7 +1,8 @@
+
 /* Set global background color and main text color */
 body {
     background-color: #1a1a24;
-    color: #cccccc;
+    color: #e2e8f0;
     margin: 0;
     font-size: 16px;
     line-height: 1.6;
@@ -22,6 +23,10 @@ h1 {
 h2 {
     color: #ffffff;
     font-size: 24px;
+}
+h3 {
+    color: #d8b4fe;
+    font-size: 18px;
 }
 /* Header banner styling */
 #site-header {
@@ -75,7 +80,7 @@ h2 {
 }
 /* Category header styling */
 .deck-column h3 {
-    color: #c2b2fc;
+    color: #d8b4fe;
     font-size: 14.4px;
     font-weight: 700;
     text-transform: uppercase;
@@ -118,7 +123,8 @@ ol.centered-list {
 
 /* Links color and styling */
 a {
-    color: #3b82f6;
+    color: #60a5fa;
+    text-decoration: underline;
 }
 
 /* Page footer styling with a top border */
@@ -134,4 +140,39 @@ a {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+
+/*media query*/
+@media (max-width: 768px) {
+    /* Reduce body padding*/
+    #main-content {
+        padding: 15px;
+    }
+
+    /* Stack commander images vertically and increase width*/
+    .commander-images {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .commander-images img {
+        width: 60%;
+    }
+
+    
+    .deck-column {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    /* Adjust main titles*/
+    h1 {
+        font-size: 24px;
+    }
+
+    h2, .decklist-title {
+        font-size: 20px;
+    }
 }

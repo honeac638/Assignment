@@ -6,8 +6,6 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.6;
-    margin: auto;
-    text-align: center;
 }
 /* Global font family for all elements */
 * {
@@ -17,67 +15,21 @@ body {
 /* Headings and main titles */
 h1 {
     color: #ffffff;
-    font-size: 32px;
 }
 
 h2 {
     color: #ffffff;
-    font-size: 24px;
 }
 h3 {
     color: #d8b4fe;
-    font-size: 18px;
 }
 /* Header banner styling */
 #site-header {
     background-color: #2d2d3a;
     color: #ffffff;
-    text-align: center;
-    padding: 20px;
-}
-/* Central layout for page body content */
-#main-content {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px 40px;
-}
-
-/* Flexbox layout for commander images */
-.commander-images {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-/* Flexbox layout for the decklist section */
-.decklist-section {
-    margin: auto;
-    text-align: left;
-    max-width: 1100px;
-}
-/*styling for the decklist title*/
-.decklist-title {
-    text-align: left;
-    font-size: 25.6px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.decklist-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    justify-content: center;
 }
 
 
-.deck-column {
-    flex: 1;
-    min-width: 220px;
-    max-width: 260px;
-}
 /* Category header styling */
 .deck-column h3 {
     color: #d8b4fe;
@@ -103,16 +55,7 @@ h3 {
     text-align: left;
 }
 
-/* Synergies section and page 2*/
-.synergies-section {
-    text-align: left;
-    max-width: 800px;
-    margin: auto;
-}
 
-.synergies-section ul {
-    margin-bottom: 25px;
-}
 /* Centered ordered list styling */
 ol.centered-list {
     display: inline-block;
@@ -131,8 +74,6 @@ a {
 #site-footer {
     margin-top: auto;
     border-top: 1px solid #333344;
-    line-height: 3;
-    text-align: center;
 }
 
 .section-title {
@@ -140,39 +81,4 @@ a {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 15px;
-}
-
-
-/*media query*/
-@media (max-width: 768px) {
-    /* Reduce body padding*/
-    #main-content {
-        padding: 15px;
-    }
-
-    /* Stack commander images vertically and increase width*/
-    .commander-images {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-
-    .commander-images img {
-        width: 60%;
-    }
-
-    
-    .deck-column {
-        max-width: 100%;
-        min-width: 100%;
-    }
-
-    /* Adjust main titles*/
-    h1 {
-        font-size: 24px;
-    }
-
-    h2, .decklist-title {
-        font-size: 20px;
-    }
 }

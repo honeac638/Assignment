@@ -54,6 +54,10 @@ h3 {
     padding: 3px;
     text-align: left;
 }
+.deck-column li:hover {
+    background-color: #2c2c39;
+    color: #ffffff;
+}
 
 
 /* Centered ordered list styling */
@@ -81,4 +85,14 @@ a {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+.commander-images img {
+    border: 2px solid #3b3b4f;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.commander-images img:hover {
+    transform: translateY(-4px);
+    border-color: #d8b4fe;
 }

@@ -13,36 +13,40 @@
   </head>
     <body>
       <!-- A header that contains the main heading for the page -->
-      <header id="site-header">
-        <h1>Magic the Gathering New Reality Fracture Precon</h1>
+      <header id="site-header" class="py-4 shadow-sm">
+        <h1 class="text-center fw-bold">Magic the Gathering New Reality Fracture Precon</h1>
       </header>
 
       <!-- main content of the page -->
-      <main id="main-content">
-        <section id="intro-section">
-          <p>This is a page all about what in the new reality fracture precon!</p>
+      <main id="main-content" class="container my-5">
+        <section id="intro-section" class="text-center mb-5">
+          <p class="lead">This is a page all about what in the new reality fracture precon!</p>
           <!-- nav to info about magic that you need to know before playing -->
-          <nav>
-          <a href="https://magic.wizards.com/en/intro">Read the official Introduction to Magic: The Gathering.</a>
-          <p><a href="https://magic.wizards.com/en/formats/commander">Learn how the MTG Commander Format works.</a></p>
+          <nav class="d-flex justify-content-center gap-4 my-3">
+            <a href="https://magic.wizards.com/en/intro" class="btn btn-outline-info btn-sm">Read Introduction to MTG</a>
+            <a href="https://magic.wizards.com/en/formats/commander" class="btn btn-outline-info btn-sm">Learn Commander Format</a>
           </nav>
           <!-- Gives a image of the commanders and what the name is -->
-        <section class="commander-section">
-            <h2 class="section-title">Commander: (Jace, Multiverse Architect) / (Nissa, Leyline Tamer)</h2>
-            <div class="commander-images">
-            <img src="./images/frc-1-jace-multiverse-architect.jpg" alt="Card art for Commander Jace, Multiverse Architect" width="20%" />
-            <img src="./images/frc-2-nissa-leyline-tamer.jpg" alt="Card art for Commander Nissa, Leyline Tamer" width="20%" />
+        <section class="commander-section mb-5 text-center">
+            <h2 class="section-title fw-bold mb-4">Commander: (Jace, Multiverse Architect) / (Nissa, Leyline Tamer)</h2>
+            <div class="commander-images row justify-content-center g-4">
+              <div class="col-md-5 text-center">
+                <img src="./images/frc-1-jace-multiverse-architect.jpg" alt="Card art for Commander Jace, Multiverse Architect" class="img-fluid rounded shadow" style="max-width: 60%;" />
+              </div>
+              <div class="col-md-5 text-center">
+                <img src="./images/frc-2-nissa-leyline-tamer.jpg" alt="Card art for Commander Nissa, Leyline Tamer" class="img-fluid rounded shadow" style="max-width: 60%;" />
+              </div>
             </div>
           </section>
 
         <!-- Deck List of cards  -->
-        <section id="deck-list-section">
-          <h2 class="decklist-title">Deck List</h2>
+        <section id="deck-list-section" class="mb-5">
+          <h2 class="decklist-title fw-bold text-center mb-4">Deck List</h2>
           <!-- lands cards info -->
 
-          <div class="decklist-grid">
-            <div class="deck-column">
-          <h3>lands (39)</h3>
+          <div class="decklist-grid row g-4">
+            <div class="deck-column col-md-3">
+          <h3 class="fw-bold">lands (39)</h3>
           <ul> 
             <li>1 Battlefield Forge</li>
             <li>1 Caves of Koilos</li>
@@ -79,8 +83,8 @@
             </ul>
             </div>
             <!-- creatures info-->
-            <div class="deck-column">
-            <h3>Creatures (18)</h3>
+            <div class="deck-column col-md-3">
+            <h3 class="fw-bold">Creatures (18)</h3>
 
             <ul>
             <li>1 Akroma, Angel of Fury</li>
@@ -103,8 +107,8 @@
             </ul>
             </div>
             <!-- instants and sorceries info -->
-            <div class="deck-column">
-            <h3>Instants & Sorceries (19)</h3>
+            <div class="deck-column col-md-3">
+            <h3 class="fw-bold">Instants & Sorceries (19)</h3>
 
             <ul>
             <li>1 Brainstorm</li>
@@ -129,8 +133,8 @@
             </ul>
             </div>
             <!-- artifacts and enchantments info-->
-            <div class="deck-column">
-            <h3>Artifacts & Enchantments (22)</h3>
+            <div class="deck-column col-md-3">
+            <h3 class="fw-bold">Artifacts & Enchantments (22)</h3>
 
             <ul>
             <li>1 Arcane Signet</li>
@@ -162,9 +166,9 @@
         </section>
 
         <!-- How the deck is played-->
-        <section>
-        <h2 class="section-title">How to Play the Deck</h2>
-          <ol class="centered-list">
+        <section class="mb-5 text-center">
+        <h2 class="section-title fw-bold">How to Play the Deck</h2>
+          <ol class="centered-list text-start">
             <li>Generate expendable creature tokens early in the game.</li>
             <li>Use polymorph/swap spells to transform small tokens into massive threats.</li>
             <li>Cheat out high-impact, alternate-reality versions of iconic Magic characters!</li>
@@ -172,9 +176,9 @@
         </section>
       </main>
       <!-- footer with next page link -->
-      <footer id="site-footer">
+      <footer id="site-footer" class="text-center py-4">
         <nav>
-          <a href="page2.html">Read the Reality Fracture Deck Strategy Guide on Page 2</a>
+          <a href="page2.html" class="btn btn-outline-info btn-sm">Read the Reality Fracture Deck Strategy Guide on Page 2</a>
         </nav>
         
       </footer>
